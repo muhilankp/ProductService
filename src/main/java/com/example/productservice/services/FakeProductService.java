@@ -41,10 +41,10 @@ public class FakeProductService implements IProductService{
         return allProducts;
     }
 
-    @Override
-    public Product updateProduct(Long id) {
-        return null;
-    }
+//    @Override
+//    public Product updateProduct(Long id) {
+//        return null;
+//    }
 
     private Product convertProductDtoToProduct(FakeProductDto productDto) {
         Product product = new Product();
